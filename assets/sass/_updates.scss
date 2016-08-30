@@ -1,0 +1,43 @@
+#updates {
+	background-image: url('../../img/background/background.jpg');
+	background-position: fixed;
+	background-attachment: fixed;
+	color: white;
+	padding: 40px 0 25px;
+	width: 100%;
+	h1 {
+		font-size: 45px;
+	}
+	p {
+		line-height: 25px;
+		font-size: 16px;
+	}
+	input {
+		font-size: 17px;
+		border-width: 1px 1px 1px 3px;
+		border-left-color: $blue;
+		height: 46px;
+		padding-left: 20px;
+		line-height: 44px;
+		margin-top: $stdMarginBottom * 1.5;
+	}
+	#name {
+		width: 185px;
+	}
+	#email {
+		width: 275px;
+	}
+	button {
+		@include normalBtn(12.5px, 30px, white);
+		border: 1px solid white;
+		margin-top: $stdMarginBottom * 1.5;
+	}
+	button:hover {
+		background: white;
+		color: $blue;
+	}
+	#updatesLeft, #updatesRight {
+		position: relative;
+		visibility: hidden;
+	}
+}

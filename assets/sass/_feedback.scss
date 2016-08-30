@@ -1,0 +1,76 @@
+#feedback {
+	#clientsSay, #clients {
+		position: relative;
+		opacity: 0;
+		visibility: hidden;
+	}
+	.container-fluid {
+		background-image: url('../../img/background/background.jpg');
+		background-position: fixed;
+		background-attachment: fixed;
+		padding: $stdPadding 0;
+		color: white;
+		.row1 {
+			h1 {
+				font-size: 45px;
+				span {
+					color: $blue;
+				}
+			}
+			p {
+				font-size: 16px;
+				margin: 0 auto;
+			}
+			.quotes {
+				position: relative;
+				top: 100px;
+			}
+		}
+
+	}//.container-fluid
+	.row2 {
+		padding-top: $stdPadding;
+		
+		
+		.client {
+			padding-bottom: $stdPadding/2;
+			margin-bottom: $stdMarginBottom;
+			border-bottom: 1px solid #E9E9E9;
+			opacity: 0.8;
+			img {
+				border-radius: 100%;
+				margin-right: 10px;
+			}
+			p {
+				color: $btnBorder;
+				position: relative;
+				top: 10px;
+				font-size: 16px;
+				span {
+					color: $btnBorder;
+				}
+			}
+			img, p {
+				display: inline-block;
+			}
+		}
+		.clientActive {
+			opacity: 1;
+			p {
+				color: $blue;
+				span {
+					color: #848484;
+				}
+			}
+		}
+		.client:hover {
+			opacity: 1;
+			p {
+				color: $blue;
+				span {
+					color: #848484;
+				}
+			}
+		}
+	}
+}

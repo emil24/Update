@@ -1,0 +1,22 @@
+@import "reset";
+@import "../../vendors/bootstrap/assets/stylesheets/bootstrap";
+@import "variables";
+@import "mixins";
+@import "commonClasses";
+@import "home";
+@import "logo";
+@import "startup";
+@import "technology";
+@import "statistics";
+@import "features";
+@import "updates";
+@import "prices";
+@import "feedback";
+@import "team";
+@import "launch";
+@import "contacts";
+@import "smallScreenMenu";
+
+body {
+	font-family: 'Lato', sans-serif;
+}

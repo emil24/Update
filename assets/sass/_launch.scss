@@ -1,0 +1,24 @@
+#launch {
+	background: $blue;
+	color: white;
+	padding: 25px 0px;
+	i, .launchText {
+		display: inline-block;
+	}
+	i {
+		font-size: 60px;
+		margin-right: 15px;
+		position: relative;
+		top: -20px;
+	}
+	h1 {
+		font-size: 45px;
+	}
+	p {
+		font-size: 16px;
+	}
+	button {
+		@include normalBtn(15px, 25px, white);
+		margin-top: 30px;
+	}
+}

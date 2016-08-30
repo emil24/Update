@@ -1,0 +1,38 @@
+#technology {
+	border-top: 1px solid $btnBorder;
+	padding-bottom: $stdPadding;
+	.techPanel{
+		visibility: hidden;
+		padding-top: $stdPadding/2;
+		border-bottom: 1px solid $btnBorder;
+		padding-bottom: $stdPadding/2;
+		.techText {
+			margin-top: $stdPadding;
+			h2 {
+				font-size: 34px;
+				font-weight: normal;
+				span {
+					color: $blue;
+				}
+			}
+			p {
+				line-height: 25px;
+				font-size: 16px;
+			}
+			p:nth-child(2) {
+				font-family: 'PT Sans', sans-serif;
+				
+			}
+		}
+	}//end .techPanel
+	.techImg{
+		img {
+			width: 100%;
+		}
+	}
+	.techPanel:last-child {
+		border-bottom: none;
+	}
+
+	
+}

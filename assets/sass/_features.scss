@@ -1,0 +1,24 @@
+#features {
+	padding: $stdPadding 0;
+	.row:first-child {
+		margin-bottom: $stdPadding;
+	}
+	i {
+		font-size: 3.3em;
+		color: $blue;
+		margin-bottom: $stdMarginBottom;
+	}
+	h4 {
+		font-size: 16px;
+		line-height: 1.1;
+	}
+	p {
+		color: #8F8F8F;
+		font-size: 15px;
+		margin-bottom: $stdPadding;
+	}
+	#featuresRow1, #featuresRow2 {
+		visibility: hidden;
+		position: relative;
+	}
+}

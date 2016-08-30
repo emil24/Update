@@ -1,0 +1,67 @@
+#startup {
+	padding-top: $stdPadding;
+	.row1 {
+		button {
+			background: white;
+			border: 1px solid $btnBorder;
+			color: #606060;
+			height: 60px;
+			margin-right: -5px;
+			width: 180px;
+			box-sizing: border-box;
+
+		}
+		.activeBtn {
+			background: $blue;
+			color: white;
+		}
+	}
+	.row2 {
+		padding-top: $stdPadding;
+		padding-bottom: $stdPadding/2;
+		.firstTab {
+			@extend .startupText;
+			margin-bottom: $stdMarginBottom;
+			visibility: hidden;
+		}//end firstTab
+
+		.secondTab {
+			@extend .startupText;
+			.secondTabText {
+				padding-top: $stdPadding;
+				margin-bottom: $stdMarginBottom;
+			}
+			
+		}//end secondTab
+
+		.thirdTab {
+			.row1 {
+				h1 {
+					font-size: 45px;
+				}
+				p {
+					margin: 0 auto;
+					margin-bottom: 30px;
+					font-size: 15px;
+					width: 30%;
+				}
+			}
+			.row2 {
+				position: relative;
+				i {
+					color: $blue;
+					font-size: 60px;
+					margin-bottom: $stdMarginBottom/2;
+				}
+				p {
+					font-size: 16px;
+					width: 80%;
+					margin: 0 auto;
+				}
+				.panelTab {
+					margin-bottom: $stdMarginBottom;
+				}
+			}
+		}//end thirdTab
+	}
+}

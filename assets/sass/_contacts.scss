@@ -1,0 +1,61 @@
+#contacts {
+	background-image: url('../../img/background/background.jpg');
+	background-position: fixed;
+	background-attachment: fixed;
+	padding-top: $stdPadding;
+	color: white;
+
+	.col1 {
+		img {
+			margin-bottom: $stdMarginBottom;
+		}
+		p {
+			font-size: 15px;
+		}
+	}
+	.col2 {
+		h4 {
+			margin-bottom: 25px;
+			line-height: 1.1;
+			font-size: 16px;
+		}
+		i {
+			font-size: 50px;
+			color: $blue;
+		}
+		.row {
+			margin-bottom: $stdMarginBottom;
+		}
+	}
+	.col3 {
+		a {
+			color: $blue;
+		}
+		i, .contactText {
+			display: inline-block;
+		}
+		i {
+			color: $blue;
+			font-size: 20px;
+			padding-right: 10px;
+		}
+		.fa-map-marker {
+			position: relative;
+			top: -15px;
+		}
+		.contactText {
+			margin-bottom: 20px;
+			width: 90%;
+		}
+		h4 {
+			margin-bottom: 25px;
+			line-height: 1.1;
+			font-size: 16px;
+		}
+	}
+	.copyright {
+		margin-top: $stdPadding * 2;
+		margin-bottom: $stdMarginBottom;
+		color: #A4B6CC;
+	}
+}

@@ -1,0 +1,18 @@
+@import "variables";
+
+@mixin blueBtn() {
+	background: $blue;
+	border: 1px solid $blue;
+	border-radius: 3px;
+	padding: 15px 50px;
+}
+
+@mixin normalBtn($paddingVer, $paddingHor, $color) {
+	background: none;
+	border: 1px solid $color;
+	border-radius: 3px;
+	box-sizing: border-box;
+	color: $color;
+	padding: $paddingVer $paddingHor;
+
+}
